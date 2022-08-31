@@ -1,0 +1,81 @@
+
+  @import url("https://use.typekit.net/zcd0alv.css");
+
+body{
+    background-color: #b2c1c1;
+    color: #18731a;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: roboto-condensed,sans-serif;  
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: aqua;
+}
+.avatar {
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 5px 3px 20px gray;
+}
+.info p {
+    color: #2b301e;
+    margin: 0;
+    font-style: italic;
+
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+.bg-green{
+    background-color: #27badb;
+}
+.bg-yellow{
+    background-color: #83b034;
+}
+.bg-red{
+    background-color: #ca865f;
+}
+
+
+.card{
+    padding: 15px 40px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.list{
+    padding: 0px;
+    list-style: none;
+}
+.table{
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color:aliceblue
+}
+.contact h2{
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #18731a;
+    
+}
+.form-group input {
+
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(21, 15, 15)
+    ;
+}
